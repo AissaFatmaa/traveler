@@ -1,0 +1,218 @@
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation ul {
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+
+
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #828282;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.navigation a:hover {
+
+    color: black;
+
+}
+
+.icons {
+    display: flex;
+    width: 155px;
+    justify-content: space-around;
+}
+
+.icons svg {
+    width: 30px;
+    border: 2px solid grey;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.icons select {
+    border: none;
+}
+
+.section2 {
+    height: 600px;
+    background-image: url("https://modrent.travelerwp.com/wp-content/uploads/2022/05/Rectangle-1-1.png");
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    color: white;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description h1 {
+    font-size: 48px;
+}
+
+.description p {
+    font-size: 24px;
+}
+
+.search {
+    height: 10px;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    padding: 20px;
+    align-items: center;
+}
+
+.search button {
+    width: 120px;
+    display: flex;
+    padding: 8px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.search svg {
+    fill: white;
+    width: 20px;
+    margin-right: 5px;
+
+}
+
+.section3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section3 h1 {
+    font-size: 48px;
+}
+
+.section3 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 23px;
+}
+
+.section3 .titles {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    font-size: 20px;
+
+}
+
+.images img:hover {
+    transform: scale(1.25);
+    transition: .5s ease;
+}
+
+.section4 {
+    height: 900px;
+    background-color: #F7F8FA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section4 h1 {
+    font-size: 48px;
+    color: black;
+}
+
+.card {
+    width: 286px;
+    height: 350px;
+    border-radius: 5px;
+    border: 1px solid #e3e3e3;
+    margin: 10px;
+    box-shadow: -4px 0px 17px -3px rgba(0, 0, 0, 0.75);
+}
+
+.card img {
+    width: 286px;
+    height: 200px;
+}
+
+.des {
+    padding: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 103px;
+}
+
+.section5 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.section5 img {
+    width: 1080px;
+    height: 530px;
+}
+
+.section6 {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.parent {
+    display: flex;
+    height: 300px;
+
+}
+
+.box1 img {
+    width: 530px;
+    height: 250px;
+    border-radius: 20px 0 0 20px;
+}
+
+.box2 {
+    background-color: #f7efef;
+    padding: 76px;
+    height: 98px;
+    border-radius: 0 20px 20px 0;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    background-color: #f3f3f394;
+    justify-content: space-around;
+}
